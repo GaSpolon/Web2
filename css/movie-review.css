@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Roboto', Arial, sans-serif;
-    background-color: #f2f2f2; /* Fundo cinza suave */
+    background-color: #d9d9d9; /* Fundo cinza suave */
     color: #333;
     line-height: 1.6;
     padding: 0;
@@ -83,11 +83,12 @@ main {
     font-weight: 700;
     color: #333;
     margin-bottom: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .release-date {
     font-size: 1.2rem;
-    color: #777;
+    color: #555;
 }
 
 .movie-rating {
@@ -103,10 +104,22 @@ main {
     background-color: #f9f9f9; /* Cor de fundo mais suave */
     border-radius: 8px;
     box-shadow: none;
-    width: 100%;
+    width: 75%;
+    height: auto;
     max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+}
+
+.movie-card {
+    padding: 15px;
+    border-radius: 5%;
+    background-color: #f0f0f0;
+}
+
+.movie-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
 
 .movie-summary h3 {
@@ -123,10 +136,8 @@ main {
 }
 
 .movie-reviews {
-    margin-top: 80px;
     display: flex;
     flex-direction: column;
-    gap: 30px;
     width: 100%;
     max-width: 1200px;
     margin-left: auto;
@@ -137,6 +148,7 @@ main {
     font-size: 2rem;
     margin-bottom: 20px;
     color: #333;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .review {

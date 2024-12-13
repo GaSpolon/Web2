@@ -6,6 +6,7 @@
     <title>CINEVIEW</title>
     <link rel="icon" href="./images/icon.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/movie-review.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
@@ -21,22 +22,26 @@
 
     <main class="movie-page">
         <section class="movie-header">
-            <div class="movie-poster">
-                <img src="images/Oppenheimer_poster.jpg" alt="Pôster do Filme">
+            <div class = "movie-card">
+                <div class="movie-poster">
+                    <img src="images/Oppenheimer_poster.jpg" alt="Pôster do Filme">
+                </div>
+                <div class = "movie-details">
+                    <p class="release-date">25 de Dezembro de 2023</p>
+                    <p class="movie-rating"><span class="fa fa-star checked"></span> <span class="fa fa-star checked"></span> <span class="fa fa-star checked"></span> <span class="fa fa-star checked"></span> </p>
+                </div>
             </div>
             <div class="movie-info">
                 <h2 class="movie-title">Oppenheimer</h2>
-                <p class="release-date">Lançamento: 25 de Dezembro de 2023</p>
-                <p class="movie-rating">Avaliação: <strong>8.5/10</strong></p>
-            </div>
+                <section class="movie-summary">
+                    <h3>Sinopse</h3>
+                    <p>
+                        Ambientado na Segunda Guerra Mundial, o longa acompanha a vida de J. Robert Oppenheimer (Cillian Murphy), físico teórico da Universidade da Califórnia e diretor do Laboratório de Los Alamos durante o Projeto Manhattan - que tinha a missão de projetar e construir as primeiras bombas atômicas.
+                    </p>
+                </section>
         </section>
 
-        <section class="movie-summary">
-            <h3>Resumo</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-        </section>
+
 
         <section class="movie-reviews">
             <h3>Comentários e Resenhas</h3>
