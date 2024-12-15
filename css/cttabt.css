@@ -1,78 +1,34 @@
-body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden; /* Evita rolagem horizontal */
-    height: 100%;
-    font-family: 'Roboto', Arial, sans-serif;
-    background-color: #d9d9d9;
-    color: #333;
-    text-align: center;
-    display: flex; /* Configura flexbox no body */
-    flex-direction: column; /* Organiza os elementos em coluna */
-    justify-content: space-between;
-}
+@import url(global.css);
 
-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh; /* Ocupa 100% da altura da janela */
-}
+/* Estilos específicos da página Sobre */
 
+/* Conteúdo Principal */
 main {
-    flex: 1; /* Faz o conteúdo expandir para empurrar o footer para baixo */
-    display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
-    flex-direction: column; /* Organiza o conteúdo em coluna */
-    width: auto;
-    text-align: center; /* Centraliza o texto dentro dos elementos */
-    margin-bottom: 200px;
-    margin-right: 50px;
+    padding: 40px; /* Adiciona mais espaço interno ao redor do texto */
+    max-width: 800px; /* Largura máxima para o texto */
+    margin: 20px auto; /* Centraliza horizontalmente com margem superior/inferior */
+    background-color: #ffffff; /* Fundo branco */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
 }
 
-li {
-    list-style: none;
-    width: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Centraliza os itens dentro do li */
-    text-align: center;
-    margin-right: 25px;
-}
 
-header {
-    background-color: rgba(36, 35, 35, 0.842);
-    color: #E50914;
+main p {
     padding: 20px;
-    text-align: center;
+    font-size: 1.1rem; /* Aumenta o tamanho do texto */
+    color: #333; /* Texto escuro */
+    text-align: justify; /* Justifica o texto */
 }
 
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    padding: 0;
-    margin: 0;
+/* Ajuste para telas menores */
+@media (max-width: 768px) {
+    main {
+        margin: 20px 10px; /* Garante afastamento maior nas laterais */
+    }
 }
 
-nav ul li {
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-    margin-top: auto;
-    width: 100%; /* Garante que o footer ocupe toda a largura visível */
+@media (max-width: 480px) {
+    main {
+        margin: 20px 5px; /* Ainda mais afastado em telas muito pequenas */
+    }
 }
