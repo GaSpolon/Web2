@@ -3,4 +3,4 @@ Site de publicações/consultas de resenhas de filmes. Pretende permitir que usu
 
 ### Participantes do projeto:
 - André Luis Zitelli Rettondini, 802058
-- Gabriel Vianna de Oliveira Spolon,
+- Gabriel Vianna de Oliveira Spolon, 811649
