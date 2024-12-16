@@ -1,10 +1,11 @@
 @import url("global.css");
 
-
+/* Corpo Local */
 body {
     line-height: 1.6;
 }
 
+/* Elemento principal da página, utilizado para estruturar o conteúdo. */
 main {
     margin-top: 40px;
     padding: 0 40px;
@@ -12,6 +13,7 @@ main {
     width: 100%;
 }
 
+/* Cabeçalho do filme, que contém o pôster e as informações do filme. */
 .movie-header {
     display: flex;
     flex-direction: row;
@@ -20,6 +22,7 @@ main {
     justify-content: space-between;
 }
 
+/* Imagem do pôster do filme */
 .movie-poster img {
     width: 100%;
     max-width: 250px; /* Ajustado para uma imagem menor, mas bem visível */
@@ -27,10 +30,12 @@ main {
     border-radius: 8px;
 }
 
+/* Contêiner para as informações do filme, como título, data e avaliação. */
 .movie-info {
     flex: 1;
 }
 
+/* Título do filme */
 .movie-title {
     font-size: 2.8rem;
     font-weight: 700;
@@ -39,11 +44,13 @@ main {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
+/* Data de lançamento */
 .release-date {
     font-size: 1.2rem;
     color: #555;
 }
 
+/* Avaliação */
 .movie-rating {
     font-size: 1.4rem;
     font-weight: 700;
@@ -51,6 +58,7 @@ main {
     margin-top: 10px;
 }
 
+/* Sumário */
 .movie-summary {
     margin-top: 30px; /* Ajustado para aproximar o resumo do card */
     padding: 30px 40px;
@@ -64,12 +72,14 @@ main {
     max-width: 1200px;
 }
 
+/* Contêiner do card do filme */
 .movie-card {
     padding: 15px;
     border-radius: 5%;
     background-color: #f0f0f0;
 }
 
+/* Detalhes do filme (Avaliação e Lançamento) */
 .movie-details{
     display: flex;
     flex-direction: column;
@@ -77,12 +87,14 @@ main {
     text-align: center;
 }
 
+/* Título seção de resumo */
 .movie-summary h3 {
     font-size: 2.2rem;
     color: #333;
     margin-bottom: 15px;
 }
 
+/* Texto do resumo */
 .movie-summary p {
     font-size: 1.1rem;
     color: #555;
@@ -91,6 +103,7 @@ main {
 
 }
 
+/* Reviews */
 .movie-reviews {
     margin-top: 20px;
     display: flex;
@@ -101,6 +114,7 @@ main {
     margin-right: auto;
 }
 
+/* Título da seção */
 .movie-reviews h3 {
     font-size: 2rem;
     margin-bottom: 20px;
@@ -108,6 +122,7 @@ main {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
+/* Review em si */
 .review {
     padding: 20px;
     background-color: #fff;
@@ -117,12 +132,14 @@ main {
     margin-bottom: 30px;
 }
 
+/* Autor do review */
 .review-author {
     font-weight: 700;
     color: #333;
     font-size: 1.2rem;
 }
 
+/* Texto do review */
 .review-text {
     font-size: 1.1rem;
     color: #555;

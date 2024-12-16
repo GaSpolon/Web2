@@ -37,6 +37,7 @@ main {
     color: inherit;
 }
 
+/* Coloração para estrelas */
 .checked {
     color: rgb(255, 210, 61);
 }

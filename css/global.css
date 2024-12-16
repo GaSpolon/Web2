@@ -8,6 +8,7 @@
 /* Fonte personalizada */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+/* Corpo Global */
 body {
     font-family: 'Roboto', Arial, sans-serif;
     display: flex;
@@ -16,7 +17,7 @@ body {
     background-color: #d9d9d9;
 }
 
-/* Cabeçalho */
+/* Cabeçalho Global */
 header {
     display: flex;
     flex-direction: column;
