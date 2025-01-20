@@ -4,61 +4,69 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>CINEVIEW - Barbie</title>
-        <link href="./output.css" rel="stylesheet">
+        <link rel="icon" href="./images/logo_foda.png" type="image/x-icon">
+        <script src="https://cdn.tailwindcss.com"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
-        
-        <header>
-            <h1>CINEVIEW</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Início</a></li>
-                    <li><a href="./cttabt/sobre.html">Sobre</a></li>
-                    <li><a href="./cttabt/contato.html">Contato</a></li>
+    </head>
+    <body class="bg-gradient-to-br from-gray-800 to-red-800">
+        <header class="bg-zinc-900 p-4 flex items-center justify-between text-white">
+            <a href="index.html" class="flex items-center space-x-3 hover:opacity-75 transition-opacity duration-200">
+                <img src="./images/logo_foda.png" alt="Logo do site" class="w-9 h-10"/>
+                <h1 class="text-2xl font-bold"> CINEVIEW</h1>
+            </a>
+            <nav class="font-semibold">
+                <ul class="flex space-x-6">
+                    <li><a href="./cttabt/sobre.html" class="hover:text-gray-300 transition-colors duration-200">Sobre</a></li>
+                    <li><a href="./cttabt/contato.html" class="hover:text-gray-300 transition-colors duration-200">Contato</a></li>
                 </ul>
             </nav>
         </header>
 
-        <main class="movie-page">
-            <section class="movie-header">
-                <div class = "movie-card">
+        <main class="my-8 px-4 max-w-7x1 mx-auto">
+            <section class="flex my-5 gap-6">
+                <div class = "bg-zinc-900 text-white border-zinc-900 rounded-lg h-auto p-4">
                     <div class="movie-poster">
-                        <img src="images/Barbie_poster.jpg" alt="Pôster do Filme">
+                        <img src="images/Barbie_poster.jpg" alt="Pôster do Filme" class="max-w-sm mx-auto mb-2 rounded">
                     </div>
                     <div class = "movie-details">
-                        <p class="release-date">20 de Julho de 2023</p>
-                        <p class="movie-rating"><span class="fa fa-star checked"></span> <span class="fa fa-star checked"></span> <span class="fa fa-star checked"></span> <span class="fa fa-star-half checked"></span> </p>
+                        <p class="font-semibold">20 de Julho de 2023</p>
+                        <p class="movie-rating"><span class="fa fa-star text-yellow-500"></span> <span class="fa fa-star text-yellow-500"></span> <span class="fa fa-star text-yellow-500"></span> <span class="fa fa-star-half text-yellow-500"></span> </p>
                     </div>
                 </div>
-                <div class="movie-info">
-                    <h2 class="movie-title">Barbie</h2>
-                    <section class="movie-summary">
-                        <h3>Sinopse</h3>
-                        <p>
-                            No mundo mágico das Barbies, "Barbieland", uma das bonecas começa a perceber que não se encaixa como as outras. Depois de ser expulsa, ela parte para uma aventura no "mundo real", onde descobre que a beleza está no interior de cada um.
-                    </section>
-            </section>
+                <section>
+                    <div class="bg-zinc-900 text-white border-zinc-900 rounded-lg  p-4">
+                        <h2 class="text-2xl font-bold text-yellow-400">Barbie</h2>
+                        <section class="movie-summary">
+                            <h3 class="text-lg font-semibold">Sinopse</h3>
+                            <p>
+                                Na Barbielândia - o mundo mágico das Barbies - todas as versões da boneca vivem em completa harmonia e suas únicas preocupações são encontrar as melhores roupas para passear com as amigas e curtir intermináveis festas. Porém, a Barbie Estereotipada (Margot Robbie) começa a perceber que talvez sua vida não seja tão perfeita assim, questionando-se sobre o sentido de sua existência e alarmando suas companheiras. Logo, sua vida no mundo cor-de-rosa começa a mudar e, eventualmente, ela vai parar no mundo real.
+                                <br/><br/>
+                                Forçada a viver ali, Barbie precisa lutar com as dificuldades de não ser mais apenas uma boneca. Pelo menos, a moça está acompanhada de seu fiel e amado Ken (Ryan Gosling), que, ao contrário dela, parece cada vez mais fascinado pela vida no novo mundo.
+                            </p>
+                            </section>
+                    </div>
+                    <div class="bg-zinc-900 text-white border-zinc-900 rounded-lg p-4 mt-5">
+                        <h3 class="text-2xl font-bold text-yellow-400">Comentários e Resenhas</h3>
+                        <div class="bg-zinc-800 border-zinc-900 rounded-lg p-4 my-2">
+                            <p class="review-author">Nome Nome</p>
+                            <p class="review-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"</p>
+                        </div>
 
-
-
-            <section class="movie-reviews">
-                <h3>Comentários e Resenhas</h3>
-                <div class="review">
-                    <p class="review-author">Nome Nome</p>
-                    <p class="review-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"</p>
-                </div>
-                <div class="review">
-                    <p class="review-author">Nome Nome</p>
-                    <p class="review-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"</p>
-                </div>
-                <div class="review">
-                    <p class="review-author">Nome Nome</p>
-                    <p class="review-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"</p>
-                </div>
+                        <div class="bg-zinc-800 border-zinc-900 rounded-lg p-4 my-2">
+                            <p class="review-author">Nome Nome</p>
+                            <p class="review-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"</p>
+                        </div>
+                        <div class="bg-zinc-800 border-zinc-900 rounded-lg p-4 my-2">
+                            <p class="review-author">Nome Nome</p>
+                            <p class="review-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"</p>
+                        </div>
+                    </div>
+                </section>
             </section>
         </main>
 
-        <footer>
-            <p>&copy; CINEVIEW</p>
+        <footer class="bg-zinc-900 text-white py-4 text-center">
+            <p class="text-sm font-bold">&copy; CINEVIEW</p>
         </footer>
     </body>
 </html>
