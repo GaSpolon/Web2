@@ -1,0 +1,34 @@
+{
+  "filmes": [
+    {
+      "id": "1",
+      "titulo": "Joker Folie à Deux",
+      "dataLancamento": "04/10/2024",
+      "poster": "/images/Joker_Folie_à_Deux_poster.jpg",
+      "sinopse": "Joker: Folie à Deux, dirigido por Todd Phillips, é a sequência do aclamado filme Joker (2019)...",
+      "avaliacao": 1.5,
+      "reviews": [
+        {
+          "id": 1,
+          "autor": "Spolon",
+          "comentario": "Bora lá rapaziadinha!"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "titulo": "Spider-Man: Across the Spider-Verse",
+      "dataLancamento": "01/06/2023",
+      "poster": "/images/spider_man__across_the_spider_verse__poster.jpg",
+      "sinopse": "Sinopse do filme Spider-Man...",
+      "avaliacao": 4.5,
+      "reviews": [
+        {
+          "id": 2,
+          "autor": "Spolon",
+          "comentario": "Teste mto fodaa"
+        }
+      ]
+    }
+  ]
+}
