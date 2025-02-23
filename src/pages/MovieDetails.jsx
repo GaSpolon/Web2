@@ -3,7 +3,6 @@ import { useParams } from 'react-router-dom';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import RatingStars from '../components/RatingStars';
-import Login from '../components/Login';
 import { useUser } from '../contexts/UserContext';
 
 function MovieDetails() {
