@@ -4,7 +4,6 @@ import Home from './pages/Home';
 import MovieDetails from './pages/MovieDetails';
 import Contato from './pages/Contato';
 import Sobre from './pages/Sobre';
-// Importe outros componentes/páginas, se necessário
 
 function App() {
   return (
@@ -14,8 +13,6 @@ function App() {
         <Route path="/filme/:id" element={<MovieDetails />} />
         <Route path="/contato" element={<Contato />} />
         <Route path="/sobre" element={<Sobre />} />
-        {/* Outras rotas, por exemplo: */}
-        {/* <Route path="/contato" element={<Contato />} /> */}
       </Routes>
     </BrowserRouter>
   );
