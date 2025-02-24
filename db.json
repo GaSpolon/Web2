@@ -1,34 +1,70 @@
 {
   "filmes": [
     {
-      "id": "1",
+      "id": "Joker Folie à Deux",
       "titulo": "Joker Folie à Deux",
       "dataLancamento": "04/10/2024",
       "poster": "/images/Joker_Folie_à_Deux_poster.jpg",
-      "sinopse": "Joker: Folie à Deux, dirigido por Todd Phillips, é a sequência do aclamado filme Joker (2019)...",
-      "avaliacao": 1.5,
+      "sinopse": "Joker: Folie à Deux, dirigido por Todd Phillips, é a sequência do aclamado filme 'Joker' (2019). O filme é um thriller psicológico musical que continua a história de Arthur Fleck (Joaquin Phoenix), agora internado no Hospital Estadual de Arkham, aguardando julgamento por seus crimes como o Coringa. Durante sua estadia, Arthur conhece Harleen 'Lee' Quinzel (Lady Gaga), uma paciente obcecada por sua persona como o Coringa. Os dois desenvolvem um relacionamento intenso e perturbador, explorado através de interlúdios musicais fantásticos.",
+      "avaliacao": 2.5,
       "reviews": [
         {
           "id": 1,
-          "autor": "Spolon",
-          "comentario": "Bora lá rapaziadinha!"
+          "autor": "André Rettondini",
+          "comentario": "Assisti a \"Joker Folie à Deux\" com grandes expectativas, mas fiquei extremamente desapontado. O filme tenta explorar novas dimensões no universo do Coringa, mas a trama é confusa e mal construída, com personagens rasos e diálogos forçados."
         }
       ]
     },
     {
-      "id": "2",
+      "id": "Spider-Man: Across the Spider-Verse",
       "titulo": "Spider-Man: Across the Spider-Verse",
       "dataLancamento": "01/06/2023",
       "poster": "/images/spider_man__across_the_spider_verse__poster.jpg",
-      "sinopse": "Sinopse do filme Spider-Man...",
+      "sinopse": "Spider-Man: Across the Spider-Verse (2023) é a sequência do aclamado filme de animação 'Spider-Man: Into the Spider-Verse' (2018). Dirigido por Joaquim Dos Santos, Kemp Powers e Justin K. Thompson, o filme continua a jornada de Miles Morales (Shameik Moore), o Homem-Aranha do universo da Brooklyn, enquanto ele explora o multiverso e enfrenta novos desafios.",
       "avaliacao": 4.5,
       "reviews": [
         {
-          "id": 2,
-          "autor": "Spolon",
-          "comentario": "Teste mto fodaa"
+          "id": 1,
+          "autor": "Gabriel Spolon",
+          "comentario": "Curti demais \"Spider-Man: Across the Spider-Verse\"! A animação é incrível e os personagens parecem tão reais que te conectam logo. Apesar de momentos mais confusos na trama, o filme emociona e traz reflexões que ficam com você. Vale cada minuto!!!"
         }
       ]
+    },
+    {
+      "id": "Interestelar",
+      "titulo": "Interestelar",
+      "dataLancamento": "06/11/2014",
+      "poster": "/images/Interestelar_poster.jpg",
+      "sinopse": "Interestelar, dirigido por Christopher Nolan, é um épico de ficção científica que segue a jornada de um grupo de astronautas em busca de um novo lar para a humanidade. Em um futuro onde a Terra sofre com colheitas escassas e uma atmosfera em deterioração, o ex-piloto Cooper (Matthew McConaughey) é recrutado para liderar uma missão através de um buraco de minhoca recém-descoberto, perto de Saturno. Esse portal oferece a chance de explorar planetas potencialmente habitáveis em outro sistema solar.",
+      "avaliacao": 5,
+      "reviews": []
+    },
+    {
+      "id": "Oppenheimer",
+      "titulo": "Oppenheimer",
+      "dataLancamento": "20/07/2023",
+      "poster": "/images/Oppenheimer_poster.jpg",
+      "sinopse": "Oppenheimer, dirigido por Christopher Nolan, é um épico biográfico que narra a vida do físico teórico J. Robert Oppenheimer, conhecido como o 'pai da bomba atômica'. O filme é baseado no livro vencedor do Prêmio Pulitzer 'American Prometheus: The Triumph and Tragedy of J. Robert Oppenheimer', escrito por Kai Bird e Martin J. Sherwin. A trama acompanha a trajetória de Oppenheimer (interpretado por Cillian Murphy), desde seus dias como estudante até seu papel crucial no Projeto Manhattan, o esforço secreto dos Estados Unidos para desenvolver a primeira arma nuclear durante a Segunda Guerra Mundial.",
+      "avaliacao": 4,
+      "reviews": []
+    },
+    {
+      "id": "Barbie",
+      "titulo": "Barbie",
+      "dataLancamento": "20/07/2023",
+      "poster": "/images/Barbie_poster.jpg",
+      "sinopse": "Barbie, dirigido por Greta Gerwig, é uma comédia fantástica que traz a icônica boneca para o mundo real em uma aventura repleta de cores, humor e reflexões sobre identidade e sociedade. A história acompanha Barbie (Margot Robbie), que vive em Barbieland, um mundo perfeito e colorido onde todas as versões de Barbie e Ken (Ryan Gosling) coexistem em harmonia. No entanto, quando Barbie começa a questionar sua existência e percebe que sua vida não é tão perfeita quanto parece, ela embarca em uma jornada para o mundo real.",
+      "avaliacao": 3.5,
+      "reviews": []
+    },
+    {
+      "id": "Clube da Luta",
+      "titulo": "Clube da Luta",
+      "dataLancamento": "29/10/1999",
+      "poster": "/images/Clube_da_luta_poster.jpg",
+      "sinopse": "Clube da Luta, dirigido por David Fincher, é um filme cult que explora temas como alienação, consumismo e rebelião. O protagonista, interpretado por Edward Norton, é um homem insone e desiludido com sua vida monótona e o materialismo da sociedade moderna. Ele encontra alívio em grupos de apoio para pessoas com doenças graves, mas sua vida muda completamente quando conhece Tyler Durden (Brad Pitt), um carismático e anárquico vendedor de sabonetes.",
+      "avaliacao": 4.5,
+      "reviews": []
     }
   ]
 }

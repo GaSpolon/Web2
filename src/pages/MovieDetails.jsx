@@ -67,12 +67,6 @@ function MovieDetails() {
     e.preventDefault();
     if (!user || !novoComentario.trim()) return;
 
-    // Se, por alguma razão, chegar aqui sem checar hasCommented (segurança extra)
-    if (hasCommented) {
-      alert('Você já comentou neste filme.');
-      return;
-    }
-
     const novoReview = {
       id: reviews.length > 0 ? Math.max(...reviews.map(r => r.id)) + 1 : 1,
       autor: user,
@@ -162,9 +156,6 @@ function MovieDetails() {
               className="w-full h-full mb-2 rounded"
             />
             <p className="font-semibold text-center">{movie.dataLancamento}</p>
-            <div className="flex justify-center">
-              <RatingStars rating={movie.avaliacao} />
-            </div>
           </div>
 
           {/* Seção de conteúdo: sinopse, avaliação e comentários */}
@@ -193,7 +184,7 @@ function MovieDetails() {
                     <div className="flex space-x-2 mt-2">
                       <button
                         onClick={() => handleEditReview(review)}
-                        className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-1 px-2 rounded"
+                        className="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-1 px-2 rounded"
                       >
                         Editar
                       </button>
